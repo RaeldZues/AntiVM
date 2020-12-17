@@ -13,7 +13,7 @@ public cpuidcheck
             ; function start 
             mov     r9, rcx             ; one
             mov     r10, rdx            ; two 
-	        xor     rax, rax            ; clean eax for usage with cpuid
+            xor     rax, rax            ; clean eax for usage with cpuid
             mov     rax, 40000000h
             cpuid                       
             ; Compare the return values of ebx, ecx, edx to the proper string annotation
