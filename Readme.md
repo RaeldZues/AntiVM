@@ -24,8 +24,3 @@ INSTALLATION
 ------------
 
 This project is meant to be used as a dynamic library or static library as a submodule. It comes with some minor google testing to validate the happy path medium. 
-
-MAINTAINERS
------------
-
- * Matty - Matthew@charlesenterprises.org
